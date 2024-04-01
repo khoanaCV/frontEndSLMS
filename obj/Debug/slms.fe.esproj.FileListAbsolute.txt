@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\SEP490\slms\SLMS\SLMS.FE\obj\Debug\slms.fe.esproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\SEP490\slms\SLMS\SLMS.FE\obj\Debug\slms.fe.esproj.CoreCompileInputs.cache

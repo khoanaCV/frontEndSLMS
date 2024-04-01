@@ -1,0 +1,8 @@
+.border_8px{
+    border-radius: 4px;
+}
+.space_center{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
