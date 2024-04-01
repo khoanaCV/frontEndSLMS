@@ -39,7 +39,7 @@ jobs:
     name: Build and Deploy Job
     steps:
       - name: Set User Configurations
-        run: |
+        run: 
           git config --global user.name "KhoanaCV"
           git config --global user.email "binyeutin@gmail.com"
           git config --global --unset http.https://github.com/.extraheader
