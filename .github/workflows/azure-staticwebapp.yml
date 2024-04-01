@@ -38,19 +38,15 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
       - name: Set User Configurations
         run: |
           git config --global user.name "KhoanaCV"
           git config --global user.email "binyeutin@gmail.com"
           git config --global --unset http.https://github.com/.extraheader
           chmod -R 777 .  # Change permissions as necessary
-      -  name:  Disable  CI  
+      - name:  Disable  CI  
       - run:  echo  "CI=false" >> $GITHUB_ENV
-          
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true
       - name: Build And Deploy
